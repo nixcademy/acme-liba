@@ -1,0 +1,129 @@
+{
+  "nodes": {
+    "acme-liba": {
+      "flake": false,
+      "locked": {
+        "path": ".",
+        "type": "path"
+      },
+      "original": {
+        "path": ".",
+        "type": "path"
+      },
+      "parent": []
+    },
+    "acme-libb": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781879423,
+        "narHash": "sha256-iY0TwHKeUiCOyO6sOG0DFQ7xST9LsOcACEkJyKRw90M=",
+        "owner": "nixcademy",
+        "repo": "acme-libb",
+        "rev": "419dc7d39b99107388c945100baf4f657f114bdc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixcademy",
+        "repo": "acme-libb",
+        "type": "github"
+      }
+    },
+    "acme-libc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781879436,
+        "narHash": "sha256-KfimeEsFUiukv+C/zV3JcjKoPYSGOF55e78we47WGWA=",
+        "owner": "nixcademy",
+        "repo": "acme-libc",
+        "rev": "02cada69d525e04fb0dec00dd6000c618ab1016d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixcademy",
+        "repo": "acme-libc",
+        "type": "github"
+      }
+    },
+    "acme-libd": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781880840,
+        "narHash": "sha256-TXp5xJTz/RTXQUg4uUOfVn9QZI4TxbL3x6acINwNQQQ=",
+        "owner": "nixcademy",
+        "repo": "acme-libd",
+        "rev": "2245fe51438bb6497eb032e72b91349cf9a952fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixcademy",
+        "repo": "acme-libd",
+        "type": "github"
+      }
+    },
+    "acme-myapp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1781880843,
+        "narHash": "sha256-KCbgXUNRQp5k1hXXmxuI8oHa62AJPFNecq2pkCCiTTI=",
+        "owner": "nixcademy",
+        "repo": "acme-myapp",
+        "rev": "2908ec210a55989735d1bc73bc505abb147df099",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixcademy",
+        "repo": "acme-myapp",
+        "type": "github"
+      }
+    },
+    "acmepkgs": {
+      "inputs": {
+        "acme-liba": [
+          "acme-liba"
+        ],
+        "acme-libb": "acme-libb",
+        "acme-libc": "acme-libc",
+        "acme-libd": "acme-libd",
+        "acme-myapp": "acme-myapp",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1781881475,
+        "narHash": "sha256-vMKyg8NMxcps1B4MHLJJJ8vnnMAByp1b3esVLnbz9/k=",
+        "owner": "nixcademy",
+        "repo": "acmepkgs",
+        "rev": "9d9bb6e450a84d631a695472f8dce169a2236e53",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixcademy",
+        "repo": "acmepkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1781577229,
+        "narHash": "sha256-lrp67w8AulE9Ks53n27I45ADSzbOCn4H+CNW1Ck8B+8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "acme-liba": "acme-liba",
+        "acmepkgs": "acmepkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
